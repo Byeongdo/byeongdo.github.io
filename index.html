@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Byeongdo Hong · 홍병도</title><meta name="robots" content="noindex,follow"><link rel="canonical" href="https://byeongdo.github.io/en/"><noscript><meta http-equiv="refresh" content="0;url=/en/"></noscript><style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f7f6f0;color:#1d2f28;font:16px/1.7 system-ui,'Malgun Gothic',sans-serif}a{color:inherit;margin:0 12px;text-underline-offset:5px}</style></head><body><p><a href="/en/" lang="en" hreflang="en">Byeongdo Hong · English</a><a href="/ko/" lang="ko" hreflang="ko">홍병도 · 한국어</a></p><script>
+      // The destinations are read from the links above, so the same page also works from a copy opened from disk.
+      (function () {
+        var preferred = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+        var korean = Array.prototype.some.call(preferred, function (tag) { return /^ko(-|$)/i.test(tag); });
+        var link = document.querySelector('a[hreflang="' + (korean ? 'ko' : 'en') + '"]');
+        if (link) location.replace(link.href);
+      })();
+    </script></body></html>
